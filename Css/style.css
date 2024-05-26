@@ -37,8 +37,8 @@ body{
 
 .brasil .green .yellow{
     position: absolute;
-    height: 200px;
-    width: 350px;
+    height: 300px;
+    width: 400px;
     background-color: #FEDD00;
     display: flex;
     justify-content: center;
@@ -50,8 +50,8 @@ body{
 
 .brasil .green .yellow .blue{
     position: absolute;
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     background-color: #012169;
     display: flex;
     justify-content: center;
@@ -66,7 +66,7 @@ body{
     position: absolute;
     aspect-ratio: 1;
     border: 10px solid #FFFFFF;
-    width: 220px;
+    width: 300px;
     background-color: #012169;
     display: flex;
     justify-content: center;
@@ -74,5 +74,52 @@ body{
     border-radius: 50%;
     top: 25%;
     left: -40%;
+}
+
+
+
+.pal{
+    height: 600px;
+    width: 600px;
+    margin: 20px auto 0;
+}
+
+.pal h1{
+    text-align: center;
+    background: linear-gradient(to left, #3131fc, #ff0101);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+}
+
+.pal .palestine{
+    position: relative;
+    height: 300px;
+    width: 600px;
+    background-color: white;
+}
+
+
+.pal .red{
+    position: absolute;
+    height: 300px;
+    width: 600px;
+    background-color: red;
+    clip-path: polygon(0 0,  0 100%, 40% 50%);
+}
+
+
+.pal .line{
+    height: 100px;
+    width: 600px;
+}
+
+.pal .black{
+    background-color: black;
+}
+
+.pal .green{
+    background-color: green;
 }
 
