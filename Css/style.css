@@ -8,6 +8,8 @@ body{
     background-color: gray;
 }
 
+/* ======================================> Brasil Flag  <================================== */
+
 .brasil{
     margin: 100px auto 0;
     width: 600px;
@@ -76,10 +78,10 @@ body{
     left: -40%;
 }
 
-
+/* ======================================> Palestine Flag  <==================================*/
 
 .pal{
-    height: 600px;
+    height: 400px;
     width: 600px;
     margin: 20px auto 0;
 }
@@ -121,5 +123,33 @@ body{
 
 .pal .green{
     background-color: green;
+}
+
+/* ======================================> kuwait Flag  <==================================*/
+
+.kuwait{
+    height: 500px;
+    width: 600px;
+    margin: 20px auto 0;
+}
+
+
+.kuwait h1{
+    text-align: center;
+    background: linear-gradient(to right, red, green);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+}
+
+
+.kuwait .black{
+    height: 300px;
+    width: 600px;
+    background-color: white;
+    border-left: 150px solid black;
+    border-top: 100px solid green;
+    border-bottom: 100px solid red;
 }
 
