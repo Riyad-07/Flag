@@ -8,6 +8,16 @@ body{
     background-color: gray;
 }
 
+h1{
+    text-align: center;
+    background: linear-gradient(to right, red, green);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+}
+
+
 /* ======================================> Brasil Flag  <================================== */
 
 .brasil{
@@ -15,14 +25,14 @@ body{
     width: 600px;
 }
 
-.brasil h1{
+/* .brasil h1{
     text-align: center;
     background: linear-gradient(to right, red, yellow );
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 20px;
-}
+} */
 
 
 .brasil .green{
@@ -85,7 +95,7 @@ body{
     width: 600px;
     margin: 20px auto 0;
 }
-
+/* 
 .pal h1{
     text-align: center;
     background: linear-gradient(to left, #3131fc, #ff0101);
@@ -93,7 +103,7 @@ body{
     background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 20px;
-}
+} */
 
 .pal .palestine{
     position: relative;
@@ -128,12 +138,12 @@ body{
 /* ======================================> kuwait Flag  <==================================*/
 
 .kuwait{
-    height: 500px;
+    height: 400px;
     width: 600px;
     margin: 20px auto 0;
 }
 
-
+/* 
 .kuwait h1{
     text-align: center;
     background: linear-gradient(to right, red, green);
@@ -141,7 +151,7 @@ body{
     background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 20px;
-}
+} */
 
 
 .kuwait .black{
@@ -153,3 +163,37 @@ body{
     border-bottom: 100px solid red;
 }
 
+/* ======================================> Greenland Falg <========================================== */
+
+
+.greenland .one{
+    position: relative;
+    height: 300px;
+    width: 600px;
+    margin: 20px auto 0;
+    background-color: #ff4e2f;
+}
+
+.greenland .one .two{
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    background-color: white;
+    top: 0;
+    left: 0;
+
+}
+
+
+.greenland .one .two::after{
+    content: "";
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    border-right: 100px solid white;
+    border-bottom: 100px solid white;
+    border-left: 100px solid #ff4e2f;
+    border-top: 100px solid #ff4e2f;
+    border-radius: 100px;
+    transform: rotate(45deg);
+}
